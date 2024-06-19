@@ -1,0 +1,31 @@
+/* WeatherComponent.css */
+
+.weather-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    color: black;
+    /* width: 100%; */
+}
+
+.weather-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-card h3 {
+    margin-top: 0;
+}
+
+.weather-card p {
+    margin: 5px 0;
+}
+
+#main-div{
+    width: 100%;
+}
